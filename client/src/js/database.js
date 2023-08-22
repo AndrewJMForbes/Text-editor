@@ -12,10 +12,13 @@ const initdb = async () =>
     },
   });
 
-// TODO: Add logic to a method that accepts some content and adds it to the database
+// TODO: Add logic to a method that accepts some content and adds it to the database-------------
+
+export const addDb = async (content) => console.error('addDb not implemented');
 export const putDb = async (content) => console.error('putDb not implemented');
 
-// TODO: Add logic for a method that gets all the content from the database
+// TODO: Add logic for a method that gets all the content from the database----------
+export const getAllDb = async () => console.error('getAllDb not implemented');
 export const getDb = async () => console.error('getDb not implemented');
 
 initdb();
